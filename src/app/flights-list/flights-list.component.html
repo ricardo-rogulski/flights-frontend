@@ -1,0 +1,35 @@
+<div class="flight-popup {{detailClass}}">  
+  <h4>Flight Details</h4>
+  <span>Flight Id: {{detailFlight.id}}</span>
+  <span>Aircraft model: {{detailFlight.aircraft.model}}</span>
+  <span>Aircraft tail number: {{detailFlight.aircraft.tailNumber}}</span>
+  <span>Pilot: {{detailFlight.pilot.name}}</span>
+  <span>Departure: {{detailFlight.departureCity.name}} - {{detailFlight.departureTime}}</span>
+  <span>Arrival: {{detailFlight.arrivalCity.name}} - {{detailFlight.arrivalTime}}</span>
+  <span>Flight Status: {{detailFlight.status}}</span>
+  <button (click)="closeDetails()">Close</button>
+</div>
+
+<div class="flights-list">
+  <h3>Lista de vôos</h3>
+  <table class="flight-table">
+    <tr class="title">
+      <th>Id</th>
+      <th>Aircraft</th>
+      <th>Origin</th>
+      <th>Arrival</th>
+      <th>Departure</th>
+      <th>Status</th>
+      <th>Details</th>
+    </tr>
+    <tr *ngFor="let f of flights">
+        <td>{{f.id}}</td>
+        <td>{{f.aircraft.model}}</td>
+        <td>{{f.departureCity.name}}</td>
+        <td>{{f.arrivalCity.name}}</td>
+        <td>{{f.departureTime}}</td>
+        <td>{{f.status}}</td>
+        <td><button (click)="details(f.id)">Details</button></td>
+      </tr>
+  </table>
+</div>

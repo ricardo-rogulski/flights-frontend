@@ -1,0 +1,78 @@
+
+.flights-list {
+	background: #f2f2f2;
+	padding: 20px;
+	text-align: center;
+	overflow: hidden;
+    border-top: 1px solid #999;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flight-table {
+	display: inline-block;
+}
+
+.flight-table button{
+    background: #CCC;
+    border-radius: 4px;
+    border: none;
+    font-size: 13px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+tr.title{
+    background: #FFF;
+    font-size: 14px;
+}
+
+th, td{
+    padding: 5px 15px;
+}
+
+td{
+    font-size: 13px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.flight-popup {
+	position: absolute;
+	background: #383838;
+	top: 178px;
+	width: 500px;
+	left: calc(50% - 250px);
+	height: 500px;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+}
+
+.flight-popup.disabled{
+    display: none;
+}
+
+.flight-popup h4{
+    border-bottom: 2px solid white;
+}
+
+.flight-popup span{
+    display: block;
+    padding: 10px 0;
+}
+
+.flight-popup button{
+    font-size: 25px;
+    color: white;
+    margin: 0 auto;
+    display: inherit;
+    text-align: center;
+    width: 140px;
+    border-radius: 5px;
+    background: #505050;
+    border: 1px solid #DDD;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 50px;
+    cursor: pointer;
+}
