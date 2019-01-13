@@ -1,27 +1,23 @@
-# FlightsFrontend
+# flights-fronend
+Teste para Atech. Aplicação para exibição dos vôos de uma empresa aérea.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
+## Escopo desse projeto: 
+Aplicação AngularJS que acessa um serviço REST para consulta dos vôos de uma empresa aérea.
 
-## Development server
+## Pré-requisitos:
+- NodeJS instalado e configurado;
+- Aplicação flights rodando.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Para executar este projeto:
+- Crie uma nova pasta e clone o projeto dentro dela;
+- Dentro da pasta. execute o comando: npm start;
+- Acesse no browser a url: http://localhost:4200
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### Próximos passos / evloluções desse projeto: 
+- Implementar testes automatizados;
+- Disponibilizar consultas para as outras entidades (Pilot, Aircraft e City);
+- Criar filtros e ordenação dos vôos;
+- Criar formatação diferente dependendo do status de cada vôo;
+- Adicionar responsividade;
