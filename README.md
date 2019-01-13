@@ -1,4 +1,4 @@
-# flights-fronend
+# flights-frontend
 Teste para Atech. Aplicação para exibição dos vôos de uma empresa aérea.
 
 ## Escopo desse projeto: 
@@ -6,7 +6,7 @@ Aplicação AngularJS que acessa um serviço REST para consulta dos vôos de uma
 
 ## Pré-requisitos:
 - NodeJS instalado e configurado;
-- Aplicação flights rodando.
+- Aplicação flights rodando na porta 8080.
 
 
 ## Para executar este projeto:
